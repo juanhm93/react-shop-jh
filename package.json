@@ -1,5 +1,5 @@
 {
-	"homepage": "https://juanhm93.github.io/react-shop-jh",
+	"homepage": "https://juanhm93.github.io/react-shop-jh/",
 	"name": "react-shop-jh",
 	"version": "1.0.0",
 	"description": "react eshop",
@@ -7,8 +7,8 @@
 	"scripts": {
 		"test": "echo \"Error: no test specified\" && exit 1",
 		"start": "webpack serve --open",
-		"build": "webpack -- mode production",
-		"deploy": "gh-pages -d build",
+		"build": "webpack --mode production",
+		"deploy": "gh-pages -b main -d dist",
 		"format": "prettier --write .",
 		"lint": "eslint --fix . --ext .js.jsx"
 	},
